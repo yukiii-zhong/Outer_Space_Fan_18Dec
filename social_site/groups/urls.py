@@ -8,5 +8,4 @@ urlpatterns = [
     path("posts/in/", views.SingleGroup.as_view(), name = "single"),
     path("join/",views.JoinGroup.as_view(), name = "join"),
     path("leave/", views.LeaveGroup.as_view(), name = "leave")
-
 ]
